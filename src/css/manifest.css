@@ -1,0 +1,5 @@
+@import '@core/variables.css';
+@import '@core/reset.css';
+@import '@core/main.css';
+
+@import '@shared/import.css';

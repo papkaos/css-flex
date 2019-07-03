@@ -1,0 +1,24 @@
+html,
+body {
+  font-size: 16px;
+  color: #333C4E;
+  background: #fafafa;
+  font-family: var(--font-roboto);
+  font-weight: 700;
+  line-height: 1.42857143;
+  -webkit-font-smoothing: antialiased;
+
+}
+
+html {
+  overflow-y: scroll;
+}
+
+.fix {
+  display: block;
+  width: 100%;
+  max-width: 1300px;
+  padding: 0 15px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}

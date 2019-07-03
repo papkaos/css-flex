@@ -1,0 +1,25 @@
+doctype html
+html
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1")
+
+        // Styles
+        link(rel="stylesheet" href="css/manifest.css" type='text/css')
+        <!-- inject:css -->
+        <!-- endinject -->
+
+    body
+        div.sprite(style="position: absolute;top:0;left:0;width: 0;height:0;z-index:-1")
+            include ../sprite
+
+        div.wrapper
+            include ../blocks/header
+            block content
+            include ../blocks/footer
+
+        script(src="js/vendor.js")
+        script(src="js/application.js")
+        script(src="js/fonts.js")
+        <!-- inject:js -->
+        <!-- endinject -->
